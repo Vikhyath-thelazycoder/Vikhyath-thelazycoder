@@ -1,26 +1,17 @@
 <div align="center">
 
-<!-- 🎬 HERO BANNER -->
-<img src="./hero.svg?v=1" alt="Hi, I'm Vikhyath M — Full Stack &amp; ML Engineer" width="100%"/>
+<!-- 🎬 3D GLASSMORPHIC HERO BANNER -->
+<img src="./hero-3d.gif" alt="Hi, I'm Vikhyath M — Full Stack &amp; ML Engineer" width="100%"/>
 
 <br/><br/>
 
-<img src="./team7-dance.gif" alt="Team 7 chibi dance" width="260"/>
-
-<br/>
-
-<!-- 🍥 THE LAZY CODER'S WAY -->
-<img src="./ninja-way.svg?v=1" alt="The Lazy Coder's Way — What I build" width="100%"/>
+<!-- 🪪 3D HOLOGRAPHIC SWINGING LANYARD ID BADGE -->
+<img src="./id-badge-3d.gif" alt="Vikhyath M — 3D Holographic Developer Lanyard ID Badge" width="100%"/>
 
 <br/><br/>
 
-<!-- 🔦 JUTSU ARSENAL -->
-<img src="./jutsu-stack.svg?v=1" alt="Jutsu arsenal — my tech stack" width="100%"/>
-
-<br/><br/>
-
-<!-- 🪪 DEVELOPER REGISTRATION + MISSION DASHBOARD -->
-<img src="./ninja-id.svg?v=1" alt="Developer registration card and live GitHub dashboard" width="100%"/>
+<!-- 📊 3D TELEMETRY & CONNECT HUD -->
+<img src="./telemetry-hud-3d.jpg" alt="Live Repository Telemetry &amp; Connect HUD" width="100%"/>
 
 <br/><br/>
 
@@ -46,8 +37,6 @@
 
 <br/><br/>
 
-<img src="./rasengan-run.gif" alt="Naruto running with a rasengan" width="150"/>
-
 ### 🌃 My contribution village
 
 *Every commit raises another building — rebuilt automatically every day.*
@@ -57,7 +46,7 @@
 <br/><br/>
 
 <!-- 💌 JOIN THE SQUAD -->
-<img src="./connect.svg?v=1" alt="Let's connect" width="100%"/>
+### ⚡ Let's Connect &amp; Collaborate
 
 <br/>
 
@@ -71,10 +60,8 @@
 
 <img src="https://komarev.com/ghpvc/?username=Vikhyath-thelazycoder&color=ff7a1a&style=for-the-badge&label=VISITORS" alt="Profile views"/>
 
-<br/>
+<br/><br/>
 
-<img src="./chibi-walk.gif" alt="Chibi walking" width="90"/>
-
-**Dattebayo — work smart, automate everything, keep shipping.** 🍥
+**Work smart, automate everything, keep shipping.** 🍥
 
 </div>
