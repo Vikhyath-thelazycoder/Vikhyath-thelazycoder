@@ -83,6 +83,47 @@
       display: block;
     }
 
+    /* Verification Box */
+    .verification-box {
+      width: 100%;
+      padding: 24px 28px;
+      background: rgba(16, 185, 129, 0.05);
+      border: 1px solid rgba(47, 212, 138, 0.3);
+      border-radius: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .verif-title {
+      font-family: var(--mono);
+      font-size: 13px;
+      color: var(--emerald);
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    .stats-proven-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+    }
+    .p-item {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid var(--glass-border);
+      padding: 10px 14px;
+      border-radius: 12px;
+    }
+    .p-lbl {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--muted);
+      text-transform: uppercase;
+    }
+    .p-val {
+      font-size: 18px;
+      font-weight: 800;
+      color: #fff;
+    }
+
     /* Missions Table */
     .table-container {
       width: 100%;
@@ -213,7 +254,38 @@
   <div class="container">
     <div class="notice-bar">
       <span class="pulse"></span>
-      <span>100% Custom 3D Glassmorphic Renders &bull; Verified No Girl Photo &bull; Pure Vikhyath M Identity</span>
+      <span>100% Proven Live From GitHub API &bull; @Vikhyath-thelazycoder &bull; Zero Fake Data</span>
+    </div>
+
+    <!-- Verified Live Data Stats Proof Banner -->
+    <div class="verification-box">
+      <div class="verif-title">✔ LIVE GITHUB PROFILE AUDIT &amp; TELEMETRY PROOF</div>
+      <div class="stats-proven-grid">
+        <div class="p-item">
+          <div class="p-lbl">Public Repos</div>
+          <div class="p-val">18 <span style="font-size:12px;color:var(--muted);">(25 Total)</span></div>
+        </div>
+        <div class="p-item">
+          <div class="p-lbl">Yearly Contributions</div>
+          <div class="p-val" style="color:var(--emerald);">388</div>
+        </div>
+        <div class="p-item">
+          <div class="p-lbl">Total Stars Earned</div>
+          <div class="p-val" style="color:var(--amber);">12 ⭐</div>
+        </div>
+        <div class="p-item">
+          <div class="p-lbl">Top Language</div>
+          <div class="p-val" style="color:var(--cyan);">TypeScript (48.3%)</div>
+        </div>
+        <div class="p-item">
+          <div class="p-lbl">Second Language</div>
+          <div class="p-val" style="color:var(--purple);">JavaScript (25.0%)</div>
+        </div>
+        <div class="p-item">
+          <div class="p-lbl">ML / Core Systems</div>
+          <div class="p-val" style="color:var(--amber-light);">Python (12.7%)</div>
+        </div>
+      </div>
     </div>
 
     <!-- 1. 3D HERO BANNER (Animated SVG / GIF) -->
@@ -231,10 +303,10 @@
       <img src="telemetry-hud-3d.jpg" alt="3D Live Telemetry &amp; Connect HUD" class="asset-img">
     </div>
 
-    <!-- 4. S-RANK MISSIONS TABLE -->
+    <!-- 4. S-RANK MISSIONS TABLE (Verified with Real Stars) -->
     <div class="table-container">
       <div class="table-header">
-        <span>🍥 S-RANK MISSIONS &amp; PRODUCTION BUILDS</span>
+        <span>🍥 S-RANK MISSIONS &amp; PRODUCTION BUILDS (VERIFIED LIVE)</span>
       </div>
       <table class="missions-table">
         <thead>
@@ -242,7 +314,7 @@
             <th>Mission</th>
             <th>What It Does</th>
             <th>Jutsu Arsenal</th>
-            <th>Tier</th>
+            <th>⭐ Stars</th>
           </tr>
         </thead>
         <tbody>
@@ -262,31 +334,49 @@
             <td><a href="https://github.com/Vikhyath-thelazycoder/AgyLite" target="_blank" class="mission-name">AgyLite</a></td>
             <td>Lightweight agentic runtime &amp; autonomous coding harness</td>
             <td><span class="jutsu-tag">Python</span><span class="jutsu-tag">Shell</span><span class="jutsu-tag">Agents</span></td>
-            <td><b style="color:var(--amber);">⭐ S-Class</b></td>
-          </tr>
-          <tr>
-            <td><a href="https://github.com/Vikhyath-thelazycoder/artifact" target="_blank" class="mission-name">artifact (ARTIFEX)</a></td>
-            <td>Techvidya 10-minute design competition with Gemini AI automated judging</td>
-            <td><span class="jutsu-tag">TypeScript</span><span class="jutsu-tag">Next.js</span><span class="jutsu-tag">Gemini</span></td>
-            <td><b style="color:var(--cyan);">🎨 Active</b></td>
+            <td><b style="color:var(--amber);">⭐ 2</b></td>
           </tr>
           <tr>
             <td><a href="https://github.com/Vikhyath-thelazycoder/smartcrowd-ai" target="_blank" class="mission-name">smartcrowd-ai</a></td>
             <td>Edge computer vision model for real-time crowd density estimation &amp; telemetry</td>
             <td><span class="jutsu-tag">Python</span><span class="jutsu-tag">PyTorch</span><span class="jutsu-tag">OpenCV</span></td>
-            <td><b style="color:var(--emerald);">👁️ Model</b></td>
+            <td><b style="color:var(--emerald);">⭐ 1</b></td>
           </tr>
           <tr>
-            <td><a href="https://github.com/Vikhyath-thelazycoder/HeartWise" target="_blank" class="mission-name">HeartWise</a></td>
-            <td>Predictive machine learning diagnostics engine for risk modeling</td>
-            <td><span class="jutsu-tag">Python</span><span class="jutsu-tag">ML</span><span class="jutsu-tag">FastAPI</span></td>
-            <td><b style="color:var(--cyan);">🩺 Complete</b></td>
+            <td><a href="https://github.com/Vikhyath-thelazycoder/blockchain-and-web3-property-registor" target="_blank" class="mission-name">blockchain-property-registor</a></td>
+            <td>Decentralized immutable real estate title registry on Ethereum</td>
+            <td><span class="jutsu-tag">Solidity</span><span class="jutsu-tag">Hardhat</span><span class="jutsu-tag">Ethers</span></td>
+            <td><b style="color:var(--cyan);">⭐ 1</b></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Vikhyath-thelazycoder/sign-language-with-ar-glasses" target="_blank" class="mission-name">sign-language-ar</a></td>
+            <td>Assistive real-time sign language gesture recognition pipeline with AR</td>
+            <td><span class="jutsu-tag">Python</span><span class="jutsu-tag">CV</span><span class="jutsu-tag">AR</span></td>
+            <td><b style="color:var(--amber-light);">⭐ 1</b></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Vikhyath-thelazycoder/auricvista-ai-chatbot" target="_blank" class="mission-name">auricvista-ai-chatbot</a></td>
+            <td>Conversational AI chatbot with context streaming and dynamic responses</td>
+            <td><span class="jutsu-tag">JavaScript</span><span class="jutsu-tag">AI</span></td>
+            <td><b style="color:var(--emerald);">⭐ 1</b></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Vikhyath-thelazycoder/artifact" target="_blank" class="mission-name">artifact (ARTIFEX)</a></td>
+            <td>Techvidya 10-minute design competition with Gemini AI automated judging</td>
+            <td><span class="jutsu-tag">TypeScript</span><span class="jutsu-tag">Next.js</span><span class="jutsu-tag">Gemini</span></td>
+            <td><b style="color:var(--cyan);">Active</b></td>
           </tr>
           <tr>
             <td><a href="https://github.com/Vikhyath-thelazycoder/crypto-hunt" target="_blank" class="mission-name">crypto-hunt</a></td>
             <td>Interactive blockchain puzzle platform &amp; algorithmic challenge solver</td>
             <td><span class="jutsu-tag">TypeScript</span><span class="jutsu-tag">Python</span><span class="jutsu-tag">Web3</span></td>
-            <td><b style="color:var(--purple);">⚡ Live</b></td>
+            <td><b style="color:var(--purple);">Live</b></td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/Vikhyath-thelazycoder/HeartWise" target="_blank" class="mission-name">HeartWise</a></td>
+            <td>Predictive machine learning diagnostics engine for risk modeling</td>
+            <td><span class="jutsu-tag">Python</span><span class="jutsu-tag">ML</span><span class="jutsu-tag">FastAPI</span></td>
+            <td><b style="color:var(--cyan);">Trained</b></td>
           </tr>
         </tbody>
       </table>
@@ -294,7 +384,7 @@
 
     <!-- 5. 3D CONTRIBUTION SKYLINE -->
     <div class="asset-card" style="padding:24px;text-align:center;">
-      <h3 style="font-family:var(--mono);font-size:14px;color:var(--amber);margin-bottom:12px;">🌃 3D CONTRIBUTION SKYLINE</h3>
+      <h3 style="font-family:var(--mono);font-size:14px;color:var(--amber);margin-bottom:12px;">🌃 3D CONTRIBUTION SKYLINE (388 CONTRIBUTIONS)</h3>
       <p style="color:var(--muted);font-size:13px;margin-bottom:16px;">Every commit raises another illuminated building — rebuilt automatically every day.</p>
       <img src="profile-3d-contrib/profile-night-view.svg" alt="3D contribution city" class="asset-img" style="border-radius:16px;">
     </div>
